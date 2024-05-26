@@ -30,7 +30,6 @@ import StoryListScreen from "./screens/Admin/StoryListScreen";
 import StoryEditScreen from "./screens/Admin/StoryEditScreen";
 import UserListScreen from './screens/Admin/UserListScreen';
 import UserEditScreen from  './screens/Admin/UserEditScreen';
-import MangaEden from "./screens/MangaEden";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App1 />}>
@@ -74,7 +73,6 @@ const router = createBrowserRouter(
       <Route path="/Filter" element={<Filter/>} />
       <Route path="/Login" element={<Login />} />
       <Route path="/Register" element={<Register />} />
-      <Route path="/MangaEden" element={<MangaEden />} />
 
 
       <Route path="*" element={<ErrorPage />} />

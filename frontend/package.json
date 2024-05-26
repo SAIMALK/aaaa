@@ -16,7 +16,7 @@
     "d3-ease": "^3.0.1",
     "disqus-react": "^1.1.5",
     "paths": "^0.1.1",
-    "react": "^18.2.0",
+    "react": "file:..",
     "react-bootstrap": "^2.10.2",
     "react-circular-menu": "^2.4.9",
     "react-circular-progressbar": "^2.1.0",
